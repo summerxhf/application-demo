@@ -20,8 +20,8 @@
               </property>
               <!-- cron表达式 -->
               <property name="cronExpression">
-                     <!-- 每-->
-                     <value>0/60 * * * * ?</value>
+                     <!-- 每五秒执行一次-->
+                     <value>0/5 * * * * ?</value>
               </property>
        </bean>
 

@@ -12,7 +12,5 @@ public class QuartzMain {
         //spring 加载配置文件.
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"quzrtz-job-demo.xml"});
         context.start();
-
-        System.out.print("");
     }
 }

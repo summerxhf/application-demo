@@ -16,6 +16,6 @@ public class StartProjectDemo implements Job {
 
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
-        logger.info("每一分钟执行一次,执行中......");
+        logger.info("每五秒执行一次,执行中......");
     }
 }
